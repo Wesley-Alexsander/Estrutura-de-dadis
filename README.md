@@ -1,11 +1,14 @@
-# **O que é "Estrutura de dados"?**
+# **O que é "Estrutura de dados"?** 
 
-É uma maneira de organizar, ordenar e registrar na memoria do computador, informações como:
+É uma maneira de organizar, ordenar e registrar na memoria do computador, informações como: 
 
-- Textos
-- Numeros
-- Booleanos
-- Etc...
+- Textos 
+
+- Números 
+
+- Booleanos 
+
+- Etc... 
 
 ## **Exemplos:**
 
@@ -25,59 +28,58 @@
 
 # **Por que estudar estrutura de dados?**
 
-Nós como profissionai iremos lidar com muitos tipos de dados, e esses dados desde sua criação até o momento da alimentação do sistema precisam ser bem organizados e estruturados.
+Nós como profissionais iremos lidar com muitos tipos de dados, e esses dados desde sua criação até o momento da alimentação do sistema precisam ser bem organizados e estruturados. 
 
-Isto nos possibilita não só tomar melhores decisões na construção desses dados como também nos ajuda a escrever melhores algoritimos, dando mais eficiencia a nossa aplicação.
+Isto nos possibilita não só tomar melhores decisões na construção desses dados como também nos ajuda a escrever melhores algoritmos, dando mais eficiência a nossa aplicação. 
 
 <BR>
 <BR>
 
 ## **Beneficios:**
 
-> 1º Organizar os dados da aplicação.
+> 1º Organizar os dados da aplicação. 
+> 
+> 2° Entender estruturas para melhor tomada de decisão. 
+> 
+> 3° Escrever melhores algoritmos. 
 >
-> 2° Entender estruturas para melhor tomada de decisão.
->
-> 3° Escrever melhores algoritimos.
->
-> 4° Melhorar Eficiência da aplicação.
->
-> 5° Algumas empresas usam como requisito.
+> 4° Melhorar Eficiência da aplicação. 
+> 
+> 5° Algumas empresas usam como requisito. 
 
 <BR>
 <BR>
 
-## **Desafios diarios no uso de dados:**
+## **Desafios diários no uso de dados:** 
 
-> 1° Entendimento de como estão nossos dados na aplicação.
->
-> 2° Criar listas (Ordenadas, Não Ordenadas).
->
-> 3° Repetição ou não dos dados dentro da estrutura.
->
-> 4° Organizar os dados pelo par identificador + valor.
+> 1° Entendimento de como estão nossos dados na aplicação. 
+> 
+> 2° Criar listas (Ordenadas, Não Ordenadas). 
+> 
+> 3° Repetição ou não dos dados dentro da estrutura. 
+> 
+> 4° Organizar os dados pelo par identificador + valor. 
 
 <br>
 <br>
 
 ## **3 estapas do Gerenciamento:**
 
-> 1º Modelar a estrutura;
->
-> 2º Dar vida a estrutura (Instanciar essa estrutura)
->
-> 3° Criar as funcionalidades dessa estrutura:
->
-> - Exemplo: Inserir, Excluir, Buscar, Exibir, Contar...
+> 1º Modelar a estrutura; 
+> 
+> 2º Dar vida a estrutura (Instanciar essa estrutura) 
+> 
+> 3° Criar as funcionalidades dessa estrutura: 
+> 
+> - Exemplo: Inserir, Excluir, Buscar, Exibir, Contar... 
 
 <BR>
 <BR>
 
 # **Arrays:**
 
-Os arrays, vetore ou arranjos, são uma estrutura amplamente utilizada e implementada em quase todas as linguagens de programação.
-
-É uma das estruturas mais basicas, simples de criar e de utilizar.
+Os arrays, vetores ou arranjos, são uma estrutura amplamente utilizada e implementada em quase todas as linguagens de programação. 
+É uma das estruturas mais básicas, simples de criar e de utilizar. 
 
 ```JS
 
@@ -99,137 +101,150 @@ Os arrays, vetore ou arranjos, são uma estrutura amplamente utilizada e impleme
 
 ## **Array no JavaScript:**
 
-1° São dinamicos.
+1° São dinâmicos. 
 
-2° Você poderá ter dados de diferentes tipos misturados dentro de um array, como por exemplo:
+2° Você poderá ter dados de diferentes tipos misturados dentro de um array, como por exemplo: 
 
-- Strings
-- Numbers
-- Booleanos
-- Objeos
-- Funções
-- Outros Arrays.
+- Strings 
 
-3° Aceita valores duplicados.
+- Numbers 
 
-4° Dependendo do tamanho do Array, para encontrar ou deletar um elemento, será necessário um uso maior de performance.
+- Booleanos 
+
+- Objetos 
+
+- Funções 
+
+- Outros Arrays. 
+
+3° Aceita valores duplicados. 
+
+4° Dependendo do tamanho do Array, para encontrar ou deletar um elemento, será necessário um uso maior de performance. 
 
 <br>
 
-## **Metodos array:**
 
-Existem muitos métodos já implementados, como por exemplo:
+## **Métodos array:** 
 
-> **Push( ):**
+Existem muitos métodos já implementados, como por exemplo: 
+
+> **Push( ):** 
 >
-> - The `push()` method adds new items to the end of an array.
-> - The `push()` method changes the length of the array.
-> - The `push()` method returns the new length.
+> - The `push()` method adds new items to the end of an array. 
+> - The `push()` method changes the length of the array. 
+> - The `push()` method returns the new length. 
 
-> **Pop( ):**
+
+> **Pop( ):** 
+> 
+> - The `pop()` method removes (pops) the last element of an array. 
+> - The `pop()` method changes the original array. 
+> - The `pop()` method returns the removed element. 
+
+ 
+> **find( ):** 
+> 
+> - The `find()` method returns the value of the first element that passes a test. 
+> - The `find()` method executes a function for each array element. 
+> - The `find()` method returns undefined if no elements are found. 
+> - The `find()` method does not execute the function for empty elements. 
+> - The `find()` method does not change the original array. 
+
+ 
+> **filter( ):** 
 >
-> - The `pop()` method removes (pops) the last element of an array.
-> - The `pop()` method changes the original array.
-> - The `pop()` method returns the removed element.
+> - The `filter()` method creates a new array filled with elements that pass a test provided by a function. 
+> - The `filter()` method does not execute the function for empty elements. 
+> - The `filter()` method does not change the original array. 
 
-> **find( ):**
->
-> - The `find()` method returns the value of the first element that passes a test.
-> - The `find()` method executes a function for each array element.
-> - The `find()` method returns undefined if no elements are found.
-> - The `find()` method does not execute the function for empty elements.
-> - The `find()` method does not change the original array.
-
-> **filter( ):**
->
-> - The `filter()` method creates a new array filled with elements that pass a test provided by a function.
-> - The `filter()` method does not execute the function for empty elements.
-> - The `filter()` method does not change the original array.
-
-**Obs:** Estes foram alguns dos metodos existentes, mas é preciso lembrar que existem muitos outros alem destes.
+**Obs:** Estes foram alguns dos métodos existentes, mas é preciso lembrar que existem muitos outros alem destes. 
 
 <BR>
 <BR>
+ 
+- Construído de forma linear (um após o outro) 
 
-# **Stack:**
+- O ultimo elemento a entrar na pilha é o primeiro a sair. 
 
-Traduzido do ingles stack significa pilha.
-Nós podemos imaginar como se fosse uma pilha de livros, um em cima do outro.
-Assim como as pilhas de livros, os dados podem ser empilhados um após o outro.
+
+
+<img src="https://www.raulmelo.dev/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgc3hakk3%2Fproduction%2F4a0b8f23ad43a3d91153579c39c14181b474c48b-1580x889.png&w=1920&q=75"/> 
+
+<br> ** Ilustration by <a href="https://www.raulmelo.dev/blog/data-structure-in-javascript-stack">raulmelo</a> ** 
+
+
+**OBS:** Note na imagem acima que o bloco de número 3 foi o último a entrar na pilha, mas também vai ser o primeiro a sair dela. 
 <br>
 <br>
+ 
+## **Métodos Fundamentais:** 
 
-## **Caracteristicas do stack:**
+> **Methods:** 
+> 
+> - The `push()` method adds new items to the end of an array. 
+> - The `pop()` method removes (pops) the last element of an array. 
+> - The `peek()` the method gets the top element of the stack 
 
-- Construido de forma linerar (um após o outro)
-- O ultimo elemento a entrar na pilha é o primeiro a sair.
+Outros métodos poderão ser implementados, como por exemplo o método `size()` que mostra o tamanho da pilha. 
 
-<p>
-    <img src="https://www.raulmelo.dev/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgc3hakk3%2Fproduction%2F4a0b8f23ad43a3d91153579c39c14181b474c48b-1580x889.png&w=1920&q=75"/>
-    <br> ** Ilustration by <a href="https://www.raulmelo.dev/blog/data-structure-in-javascript-stack">raulmelo</a> **
-</p>
+<br> 
 
-**OBS:** Note na imagem acima que o bloco de numero 3 foi o ultimo a entrar na pilha, mas também vai ser o primeiro a sair dela.
+<br> 
 
-## **Metodos Fundamentais:**
+# **Queue:** 
 
-> **Methods:**
->
-> - The `push()` method adds new items to the end of an array.
-> - The `pop()` method removes (pops) the last element of an array.
-> - The `peek()` the method gets the top element of the stack
+Traduzido do inglês queue significa Fila. 
 
-Outros metodos poderão ser implementados, como por exemplo o metodo `size()` que mostra o tamanho da pilha.
+Nós podemos imaginar como se fosse uma fila de pessoas, uma na frente da outra. 
 
-<br>
-<bra>
+Assim como as filas de pessoas, os dados podem ser armazenados um após o outro. 
 
-# **Queue:**
+<br> 
 
-Traduzido do ingles queue significa Fila.
-Nós podemos imaginar como se fosse uma fila de pessoas, uma na frente da outra.
-Assim como as filas de pessoas, os dados podem ser armazenados um após o outro.
-<br>
-<br>
+<br> 
 
-## **Caracteristicas do Queue:**
+## **Características do Queue:** 
 
-- Construido de forma linerar (um após o outro)
-- O primeiro elemento a entrar na pilha é também o primeiro a sair.
+- Construído de forma linear (um após o outro) 
 
-<p>
-    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYXlj8%2Fbtq9ziLZ76k%2FlNyqshJXkBFHj0L3rtbDZ0%2Fimg.png"/>
-    <br> ** Ilustration by ** <a href="https://www.raulmelo.dev/blog/data-structure-in-javascript-stack">Code Lab</a> 
-</p>
+- O primeiro elemento a entrar na pilha é também o primeiro a sair. 
 
-<br>
-<br>
 
-## **Conceitos:**
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYXlj8%2Fbtq9ziLZ76k%2FlNyqshJXkBFHj0L3rtbDZ0%2Fimg.png"/> 
 
-> 1° FIFO (First in First Out):
->
-> - O primeiro elemento a entrar na fila também é o primeiro a sair.
+<br> ** Ilustration by ** <a href="https://www.raulmelo.dev/blog/data-structure-in-javascript-stack">Code Lab</a>  
 
-> 2° Front (Frente):
->
-> - É a referencia do primeiro elemento a entrar na fila.
 
-> 3° Back (Fundo):
->
-> - É a referencia do ultimo elemento a entrar na fila.
+<br> 
 
-<br>
-<br>
+<br> 
 
-## **Metodos Fundamentais:**
 
-> **Methods:**
->
-> - The `enqueue()` method add an element to the end of the queue.
-> - The `dequeue()` method remove the first element to enter the queue.
+## **Conceitos:** 
 
-Outros metodos poderão ser implementados, como por exemplo:
+> 1° FIFO (First in First Out): 
+> 
+> - O primeiro elemento a entrar na fila também é o primeiro a sair. 
+> 2° Front (Frente): 
+> 
+> - É a referência do primeiro elemento a entrar na fila. 
+> 3° Back (Fundo): 
+> 
+> - É a referência do último elemento a entrar na fila. 
 
-- O metodo `size()` que mostra o tamanho da fila.
-- O metodo `front()` que pega o primeiro elemento da fila, dentre tantos outros.
+<br> 
+
+<br> 
+
+## **Métodos Fundamentais:** 
+
+> **Methods:** 
+> 
+> - The `enqueue()` method add an element to the end of the queue. 
+> - The `dequeue()` method remove the first element to enter the queue. 
+
+Outros métodos poderão ser implementados, como por exemplo: 
+
+- O metodo `size()` que mostra o tamanho da fila. 
+
+- O metodo `front()` que pega o primeiro elemento da fila, dentre tantos outros. 
